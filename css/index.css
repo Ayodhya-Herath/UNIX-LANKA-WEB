@@ -473,7 +473,6 @@ body { padding-top: 68px !important; }
 /* ========== Category Tiles ========== */
 .animated-categories {
   background: var(--seafoam-dark);
-  border-radius: 2rem;
   box-shadow: 0 6px 22px #d176ac22;
   margin-bottom: 2.5rem;
   position: relative;
@@ -524,8 +523,8 @@ body { padding-top: 68px !important; }
 
 /* ===== Featured Products ===== */
 .featured-products {
-  background: var(--white);
-  margin-top: 0px;
+  background: var(--seafoam-dark);
+  box-shadow: 0 6px 22px #d176ac22;
 }
 .product-card-3d {
   position: relative;
@@ -574,39 +573,10 @@ body { padding-top: 68px !important; }
 }
 .price { color: var(--section-title-pink); }
 
-/* ===== News / Blog Section ===== */
-.latest-news {
-  background: var(--seafoam-dark);
-  border-radius: 2rem;
-  box-shadow: 0 6px 22px #d176ac15;
-  margin-bottom: 2.5rem;
-}
-.news-card {
-  border-radius: 1.2rem;
-  background: var(--white);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 420px;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.news-card:hover {
-  box-shadow: 0 12px 32px #d176ac2b;
-  transform: translateY(-7px) scale(1.022);
-}
-.news-image {
-  width: 100%; height: 180px;
-  object-fit: cover;
-  border-radius: 1.2rem 1.2rem 0 0;
-}
-.news-content { flex-grow: 1; }
-.section-title-pink { color: var(--pink) !important; }
-.section-title-green { color: var(--section-title-green); }
 
 /* ===== Why Shop ===== */
 .why-shop {
   background: var(--white);
-  border-radius: 2rem;
   box-shadow: 0 6px 22px #d176ac11;
   margin-bottom: 2.5rem;
 }
@@ -616,7 +586,6 @@ body { padding-top: 68px !important; }
 /* ===== Testimonials ===== */
 .testimonials {
   background: var(--seafoam-dark);
-  border-radius: 2rem;
   box-shadow: 0 6px 22px #d176ac15;
   margin-bottom: 2.5rem;
   position: relative;
@@ -717,3 +686,107 @@ body, body * {
   -ms-user-select: none !important;
   -moz-user-select: none !important;
 }
+
+/* === News Flip Cards (Latest News Flip Section) === */
+.latest-news-flip {
+  margin-bottom: 2.5rem;
+}
+.flip-card {
+  background: transparent;
+  width: 100%;
+  perspective: 1100px;
+  height: 330px;
+  min-height: 330px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.75s cubic-bezier(.4,1.7,.4,1);
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(180deg) scale(1.04);
+  box-shadow: 0 10px 36px #d176ac44;
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 0; top: 0;
+  backface-visibility: hidden;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  background: var(--white);
+  box-shadow: 0 2px 12px #d176ac22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flip-card-front.img-full {
+  padding: 0;
+  position: relative;
+  min-height: 330px;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.news-flip-img-full {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  max-height: 330px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.28s cubic-bezier(.45,1.6,.5,1);
+}
+.flip-card-front.img-full:hover .news-flip-img-full {
+  transform: scale(1.04);
+}
+.news-flip-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  width: 100%;
+  padding: 1.2rem 1.2rem 1.4rem 1.2rem;
+  background: linear-gradient(0deg, #d176acde 0%, #f5dde3aa 98%, #ffffff00 100%);
+  text-align: left;
+}
+.news-flip-overlay h5 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.18rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 14px #d176ac85;
+}
+.flip-card-back {
+  background: var(--seafoam-dark);
+  color: var(--black);
+  transform: rotateY(180deg);
+  z-index: 3;
+  padding: 22px 24px 18px 24px;
+  align-items: center;
+  justify-content: center;
+}
+.flip-card-back-content {
+  width: 100%;
+  text-align: center;
+}
+.flip-card-back h5 {
+  color: var(--section-title-pink);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.04rem;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+@media (max-width: 700px) {
+  .flip-card, .flip-card-inner, .news-flip-img-full { min-height: 200px; height: 200px;}
+  .news-flip-overlay { padding: 0.65rem 1rem 1rem 1rem; }
+  .news-flip-overlay h5 { font-size: 0.98rem; }
+  .flip-card-back, .flip-card-front.img-full { min-height: 200px; height: 200px;}
+}
+
