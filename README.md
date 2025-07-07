@@ -1,4 +1,4 @@
-# 🎁 Unix Lanka Gifts
+# 🎁 Unix Lanka Website
 
 _A modern, fully responsive e-commerce website for handcrafted and electric gifts, designed with love and creativity._
 
@@ -51,6 +51,6 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 Clone and run locally (no backend required):
 
 ```bash
-git clone https://github.com/yourusername/unix-lanka-gifts.git
-cd unix-lanka-gifts
+git clone https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git
+cd unix-lanka-web
 # Open index.html in your browser
