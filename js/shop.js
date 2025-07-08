@@ -1,24 +1,24 @@
 // ====== Product Data (fill up to 44+ for your real use) ======
 const PRODUCTS = [
   // --- Demo Items (replace/add real items with img/desc/price/rating/category/subcategory) ---
-  { id: 1, name: "Heavenly Blush Bouquet", desc: "Beautifully arranged fresh roses.", price: 1200, rating: 4.8, img: "images/products/flowers/bouquets/FB1.png", category: "flowers", subcategory: "bouquets" },
-  { id: 2, name: "Enchanted Essence Bouquet", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 4.6, img: "images/products/flowers/bouquets/FB2.png", category: "flowers", subcategory: "bouquets" },
-  { id: 3, name: "Alluring Romance Bouquet", desc: "Beautifully arranged fresh roses.", price: 1500, rating: 3.8, img: "images/products/flowers/bouquets/FB3.png", category: "flowers", subcategory: "bouquets" },
-  { id: 4, name: "Cherish Tiger Lilies Bouquet", desc: "Beautifully arranged fresh roses.", price: 1300, rating: 3.2, img: "images/products/flowers/bouquets/FB4.png", category: "flowers", subcategory: "bouquets" },
-  { id: 5, name: "Golden Daydream Bouquet", desc: "Beautifully arranged fresh roses.", price: 1600, rating: 3.0, img: "images/products/flowers/bouquets/FB5.png", category: "flowers", subcategory: "bouquets" },
-  { id: 6, name: "Sunshine and Smile Bouquet", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 2.8, img: "images/products/flowers/bouquets/FB6.png", category: "flowers", subcategory: "bouquets" },
-  { id: 7, name: "Red Cherry Pot", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 2.5, img: "images/products/flowers/pots/FP01.png", category: "flowers", subcategory: "flower-pots" },
-  { id: 8, name: "Rose Lily Pot", desc: "Beautifully arranged fresh roses.", price: 900, rating: 3.0, img: "images/products/flowers/pots/FP02.png", category: "flowers", subcategory: "flower-pots" },
-  { id: 9, name: "Red Daisy Pot", desc: "Beautifully arranged fresh roses.", price: 800, rating: 2.3, img: "images/products/flowers/pots/FP03.png", category: "flowers", subcategory: "flower-pots" },
-  { id:10, name: "Rose Daisy Pot", desc: "Beautifully arranged fresh roses.", price: 750, rating: 3.2, img: "images/products/flowers/pots/FP04.png", category: "flowers", subcategory: "flower-pots" },
-  { id:11, name: "Red Lavender Pot", desc: "Beautifully arranged fresh roses.", price: 850, rating: 2.8, img: "images/products/flowers/pots/FP05.png", category: "flowers", subcategory: "flower-pots" },
-  { id:12, name: "Red Heart Pot", desc: "Beautifully arranged fresh roses.", price: 500, rating: 1.8, img: "images/products/flowers/pots/FP06.png", category: "flowers", subcategory: "flower-pots" },
-  { id:13, name: "Romantic Roses Frame", desc: "Dried flower frame decor.", price: 1250, rating: 3.8, img: "images/products/flowers/frames/FF1.png", category: "flowers", subcategory: "frames" },
-  { id:14, name: "White Daisy Flower Frame", desc: "Dried flower frame decor.", price: 2050, rating: 4.4, img: "images/products/flowers/frames/FF2.png", category: "flowers", subcategory: "frames" },
-  { id:15, name: "Cute Sunflower Frame", desc: "Dried flower frame decor.", price: 950, rating: 5.0, img: "images/products/flowers/frames/FF3.png", category: "flowers", subcategory: "frames" },
-  { id:16, name: "Cherish Sunflower Frame", desc: "Dried flower frame decor.", price: 2300, rating: 2.6, img: "images/products/flowers/frames/FF4.png", category: "flowers", subcategory: "frames" },
-  { id:17, name: "Romantic Roses Bouquet Frame", desc: "Dried flower frame decor.", price: 1500, rating: 1.8, img: "images/products/flowers/frames/FF5.png", category: "flowers", subcategory: "frames" },
-  { id:18, name: "Serene Lavender Frame", desc: "Dried flower frame decor.", price: 1750, rating: 2.5, img: "images/products/flowers/frames/FF6.png", category: "flowers", subcategory: "frames" },
+  { id: 1, name: "Heavenly Blush Bouquet", desc: "Beautifully arranged fresh roses.", price: 1200, rating: 4.8, img: "images/products/flowers/bouquets/FB1.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 2, name: "Enchanted Essence Bouquet", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 4.6, img: "images/products/flowers/bouquets/FB2.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 3, name: "Alluring Romance Bouquet", desc: "Beautifully arranged fresh roses.", price: 1500, rating: 3.8, img: "images/products/flowers/bouquets/FB3.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 4, name: "Cherish Tiger Lilies Bouquet", desc: "Beautifully arranged fresh roses.", price: 1300, rating: 3.2, img: "images/products/flowers/bouquets/FB4.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 5, name: "Golden Daydream Bouquet", desc: "Beautifully arranged fresh roses.", price: 1600, rating: 3.0, img: "images/products/flowers/bouquets/FB5.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 6, name: "Sunshine and Smile Bouquet", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 2.8, img: "images/products/flowers/bouquets/FB6.png", category: "flowers", subcategory: "flowers-bouquets" },
+  { id: 7, name: "Red Cherry Pot", desc: "Beautifully arranged fresh roses.", price: 1000, rating: 2.5, img: "images/products/flowers/pots/FP01.png", category: "flowers", subcategory: "flowers-pots" },
+  { id: 8, name: "Rose Lily Pot", desc: "Beautifully arranged fresh roses.", price: 900, rating: 3.0, img: "images/products/flowers/pots/FP02.png", category: "flowers", subcategory: "flowers-pots" },
+  { id: 9, name: "Red Daisy Pot", desc: "Beautifully arranged fresh roses.", price: 800, rating: 2.3, img: "images/products/flowers/pots/FP03.png", category: "flowers", subcategory: "flowers-pots" },
+  { id:10, name: "Rose Daisy Pot", desc: "Beautifully arranged fresh roses.", price: 750, rating: 3.2, img: "images/products/flowers/pots/FP04.png", category: "flowers", subcategory: "flowers-pots" },
+  { id:11, name: "Red Lavender Pot", desc: "Beautifully arranged fresh roses.", price: 850, rating: 2.8, img: "images/products/flowers/pots/FP05.png", category: "flowers", subcategory: "flowers-pots" },
+  { id:12, name: "Red Heart Pot", desc: "Beautifully arranged fresh roses.", price: 500, rating: 1.8, img: "images/products/flowers/pots/FP06.png", category: "flowers", subcategory: "flowers-pots" },
+  { id:13, name: "Romantic Roses Frame", desc: "Dried flower frame decor.", price: 1250, rating: 3.8, img: "images/products/flowers/frames/FF1.png", category: "flowers", subcategory: "flowers-frames" },
+  { id:14, name: "White Daisy Flower Frame", desc: "Dried flower frame decor.", price: 2050, rating: 4.4, img: "images/products/flowers/frames/FF2.png", category: "flowers", subcategory: "flowers-frames" },
+  { id:15, name: "Cute Sunflower Frame", desc: "Dried flower frame decor.", price: 950, rating: 5.0, img: "images/products/flowers/frames/FF3.png", category: "flowers", subcategory: "flowers-frames" },
+  { id:16, name: "Cherish Sunflower Frame", desc: "Dried flower frame decor.", price: 2300, rating: 2.6, img: "images/products/flowers/frames/FF4.png", category: "flowers", subcategory: "flowers-frames" },
+  { id:17, name: "Romantic Roses Bouquet Frame", desc: "Dried flower frame decor.", price: 1500, rating: 1.8, img: "images/products/flowers/frames/FF5.png", category: "flowers", subcategory: "flowers-frames" },
+  { id:18, name: "Serene Lavender Frame", desc: "Dried flower frame decor.", price: 1750, rating: 2.5, img: "images/products/flowers/frames/FF6.png", category: "flowers", subcategory: "flowers-frames" },
   { id:19, name: "Unicorn Cute LED Lamp", desc: "Star-shaped warm fairy lights.", price: 2850, rating: 4.6, img: "images/products/electronics/lightning-items/LI1.png", category: "electronics", subcategory: "lightning-items" },
   { id:20, name: "Flame Friend Cozy Lamp", desc: "Star-shaped warm fairy lights.", price: 2550, rating: 3.7, img: "images/products/electronics/lightning-items/LI2.png", category: "electronics", subcategory: "lightning-items" },
   { id:21, name: "LED Pickup Light", desc: "Star-shaped warm fairy lights.", price: 1850, rating: 4.8, img: "images/products/electronics/lightning-items/LI3.png", category: "electronics", subcategory: "lightning-items" },
@@ -52,7 +52,9 @@ const PRODUCTS = [
 
 // ====== Config & State ======
 const DEFAULT_BATCH = 12; // All mode: show 12 at a time
-const FILTER_BATCH = 6;   // Flowers/electronics/subcat: show 6 only
+const FILTER_BATCH = 8;   // Flowers/electronics/subcat: show 6 only
+const SUB_BATCH = 6;
+
 
 let shownProducts = [];
 let currentBatch = 0;
@@ -249,11 +251,11 @@ document.querySelectorAll("#flowerSubcats .filter-pill, #electroSubcats .filter-
   btn.addEventListener("click", function() {
     let sub = btn.dataset.cat;
     // Subcats for flowers
-    if (["flower-pots", "flower-bouquets", "flower-frames"].includes(sub)) {
+    if (["flowers-pots", "flowers-bouquets", "flowers-frames"].includes(sub)) {
       activeCategory = "flowers"; activeSubcat = sub; currentMode = sub;
     }
     // Subcats for electronics
-    if (["lightning", "accessories", "table"].includes(sub)) {
+    if (["lightning-items", "accessories", "table-items"].includes(sub)) {
       activeCategory = "electronics"; activeSubcat = sub; currentMode = sub;
     }
     renderProducts(0, true);
