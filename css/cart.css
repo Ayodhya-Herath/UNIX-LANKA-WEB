@@ -1,0 +1,90 @@
+:root {
+  --black: #181818;
+  --white: #fff;
+  --seafoam: #f5dde3;
+  --seafoam-dark: #f0c9d7;
+  --pink: #d176ac;
+  --pink-light: #fadbe3;
+  --section-title-pink: #be4a87;
+  --company-gradient: linear-gradient(90deg, #d176ac, #fadbe3, #d176ac);
+  --btn-shadow: 0 4px 18px #d176ac33, 0 1px 8px #fadbe343;
+}
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+  background: var(--seafoam);
+  color: var(--black);
+  min-height: 100vh;
+}
+.cart-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: var(--pink);
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+.cart-box, .payment-box {
+  background: var(--white);
+  border-radius: 2rem;
+  box-shadow: 0 6px 32px #d176ac17;
+}
+.cart-table th, .cart-table td {
+  vertical-align: middle;
+  border: none;
+  background: transparent;
+}
+.cart-table th {
+  font-weight: 600;
+  color: var(--section-title-pink);
+}
+.cart-table td {
+  font-size: 1.09rem;
+}
+.cart-table img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  background: var(--seafoam-dark);
+  border-radius: 13px;
+  margin-right: 10px;
+  box-shadow: 0 2px 8px #d176ac20;
+}
+.text-pink {
+  color: var(--pink) !important;
+}
+.btn-pink-gradient {
+  background: var(--company-gradient);
+  color: #fff !important;
+  font-weight: 700;
+  border: none;
+  border-radius: 32px;
+  box-shadow: var(--btn-shadow);
+  transition: background 0.18s, color 0.13s, box-shadow 0.14s;
+}
+.btn-pink-gradient:hover, .btn-pink-gradient:focus {
+  background: linear-gradient(90deg, #fadbe3 0%, #d176ac 100%);
+  color: var(--black) !important;
+  box-shadow: 0 8px 28px #be4a8720;
+}
+.payment-box h4 {
+  color: var(--section-title-pink);
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+}
+.payment-box label {
+  color: var(--pink);
+  font-weight: 500;
+}
+.payment-box .form-control, .payment-box .form-check-input {
+  border-radius: 13px;
+  border: 1.3px solid var(--pink-light);
+}
+.payment-box .form-control:focus {
+  border-color: var(--pink);
+  box-shadow: 0 3px 14px #d176ac20;
+}
+@media (max-width: 991.98px) {
+  .cart-box, .payment-box { margin-bottom: 2.2rem; }
+}
+@media (max-width: 767.98px) {
+  .cart-title { font-size: 1.5rem; }
+  .cart-box, .payment-box { border-radius: 1rem; }
+}
