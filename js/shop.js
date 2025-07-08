@@ -1,7 +1,7 @@
 // ====== Product Data (fill up to 44+ for your real use) ======
 const PRODUCTS = [
   // --- Demo Items (replace/add real items with img/desc/price/rating/category/subcategory) ---
-  { id: 1, name: "Elegant Rose Bouquet", desc: "Beautifully arranged fresh roses.", price: 2900, rating: 4.8, img: "images/products/flower_bouquet_1.jpg", category: "flowers", subcategory: "bouquets" },
+  { id: 1, name: "Elegant Rose Bouquet", desc: "Beautifully arranged fresh roses.", price: 2900, rating: 4.8, img: "images/products/flowers/bouquets/FB1.png", category: "flowers", subcategory: "bouquets" },
   { id: 2, name: "Elegant Rose Bouquet", desc: "Beautifully arranged fresh roses.", price: 2900, rating: 4.8, img: "images/products/flower_bouquet_1.jpg", category: "flowers", subcategory: "bouquets" },
   { id: 3, name: "Elegant Rose Bouquet", desc: "Beautifully arranged fresh roses.", price: 2900, rating: 4.8, img: "images/products/flower_bouquet_1.jpg", category: "flowers", subcategory: "bouquets" },
   { id: 4, name: "Elegant Rose Bouquet", desc: "Beautifully arranged fresh roses.", price: 2900, rating: 4.8, img: "images/products/flower_bouquet_1.jpg", category: "flowers", subcategory: "bouquets" },
