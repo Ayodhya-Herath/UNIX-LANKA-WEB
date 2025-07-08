@@ -542,56 +542,81 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer-standard position-relative main-footer-bg">
-    <div class="footer-art"></div>
-    <div class="container py-5 position-relative" style="z-index:2;">
-      <div class="row gy-4 align-items-start">
-        <div class="col-12 col-md-4 col-lg-3">
-          <a href="index.html" class="footer-brand d-inline-flex align-items-center mb-2 text-decoration-none">
-            <img src="images/UnixLankaLogo.png" alt="Unix Lanka Logo" width="48" height="48" class="me-2 rounded-3">
-            <span class="fw-bold fs-5 text-white">Unix Lanka Gifts</span>
-          </a>
-          <p class="small mt-2 mb-0 text-seafoam">Handcrafted & electric gifts made with love in Sri Lanka.</p>
-        </div>
-        <div class="col-6 col-md-4 col-lg-2">
-          <h6 class="footer-title">Shop</h6>
-          <ul class="footer-links">
-            <li><a href="shop.html">All Products</a></li>
-            <li><a href="cart.html">Cart</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-4 col-lg-2">
-          <h6 class="footer-title">Company</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-3 ms-lg-auto">
-          <h6 class="footer-title mb-2">Get 10% Off Your First Order</h6>
-          <form class="footer-newsletter d-flex" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-            <input type="email" class="form-control form-control-sm me-2" placeholder="Enter your email..." required>
-            <button class="btn btn-pink-gradient btn-sm px-3 fw-semibold newsletter-btn shadow" type="submit">
-              <i class="bi bi-send-fill me-1"></i>Subscribe
-            </button>
-          </form>
-          <div class="footer-social-group mt-3">
-            <a href="https://instagram.com/" target="_blank" class="footer-social me-2"><i class="bi bi-instagram"></i></a>
-            <a href="https://facebook.com/" target="_blank" class="footer-social me-2"><i class="bi bi-facebook"></i></a>
-            <a href="https://wa.me/" target="_blank" class="footer-social"><i class="bi bi-whatsapp"></i></a>
-          </div>
-          <div class="footer-contact mt-2">
-            <span class="small d-block mb-1 text-seafoam"><i class="bi bi-envelope me-1"></i>info@unixlanka.com</span>
-            <span class="small text-seafoam"><i class="bi bi-geo-alt me-1"></i>Colombo, Sri Lanka</span>
-          </div>
+
+ <!-- Footer -->
+    <footer class="footer-standard position-relative main-footer-bg">
+  <div class="footer-art"></div>
+  <div class="container py-5 position-relative" style="z-index:2;">
+    <div class="row gy-4 align-items-start flex-wrap footer-row-flex">
+      <!-- 1. Logo/Brand/Desc -->
+      <div class="footer-col-logo col-12 col-md-6 col-lg-2 mb-4 mb-lg-0">
+        <a href="index.html" class="footer-brand d-inline-flex align-items-center mb-2 text-decoration-none">
+          <img src="images/UnixLankaLogo.png" alt="Unix Lanka Logo" width="48" height="48" class="me-2 rounded-3">
+          <span class="fw-bold fs-5 text-white">Unix Lanka Gifts</span>
+        </a>
+        <p class="small mt-2 mb-0 text-seafoam">Handcrafted & electric gifts made with love in Sri Lanka.</p>
+      </div>
+
+      <!-- 2. Social Icons & Contacts-->
+      <div class="footer-col-social col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+        <div class="footer-social-group mb-2">
+          <a href="https://instagram.com/" target="_blank" class="footer-social me-2"><i class="bi bi-instagram"></i></a>
+          <a href="https://facebook.com/" target="_blank" class="footer-social me-2"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/" target="_blank" class="footer-social"><i class="bi bi-whatsapp"></i></a>
+          <span class="small d-block mb-1 text-seafoam"><i class="bi bi-envelope me-1"></i>info@unixlanka.com</span>
+          <span class="small text-seafoam"><i class="bi bi-geo-alt me-1"></i>Colombo, Sri Lanka</span>
         </div>
       </div>
+
+      <!-- 4. Links (Shop) -->
+      <div class="footer-col-contact col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+        <div class="footer-contact mt-2">
+          <h6 class="footer-title">Shop</h6>
+          <ul class="footer-links mb-3">
+          <li><a href="shop.html">All Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+        </div>
+      </div>
+
+      <!-- 4. Links (Company) -->
+      <div class="footer-col-links col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+        
+        <h6 class="footer-title mt-2">Company</h6>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- 5. Newsletter -->
+      <div class="footer-col-newsletter col-12 col-lg-4 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+        <h6 class="footer-title mb-2">Get 10% Off Your First Order</h6>
+        <form class="footer-newsletter d-flex w-100" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+          <input type="email" class="form-control form-control-sm me-2 newsletter-input" placeholder="Enter your email..." required>
+          <button class="btn btn-pink-gradient btn-sm px-3 fw-semibold newsletter-btn shadow" type="submit">
+            <i class="bi bi-send-fill me-1"></i>Subscribe
+          </button>
+        </form>
+      </div>
     </div>
-  </footer>
-  <div class="footer-copyright-bar text-center py-2 bg-black">
-    <span class="small">&copy; 2025 Unix Lanka. All rights reserved.</span>
   </div>
+</footer>
+
+<!-- Payment Methods Bar -->
+<div class="footer-payment-methods text-center py-2">
+  <img src="images/payment/visa.png" alt="Visa" class="payment-icon" />
+  <img src="images/payment/mastercard.png" alt="Mastercard" class="payment-icon" />
+  <img src="images/payment/paypal.png" alt="PayPal" class="payment-icon" />
+  <img src="images/payment/amex.png" alt="Amex" class="payment-icon" />
+  <img src="images/payment/stripe.png" alt="Stripe" class="payment-icon" />
+</div>
+
+<div class="footer-copyright-bar text-center py-2 bg-black">
+  <span class="small">&copy; 2025 Unix Lanka. All rights reserved.</span>
+</div>
+
+
 
   <!-- Animate On Scroll (AOS) JS -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>

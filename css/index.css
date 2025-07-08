@@ -211,7 +211,7 @@ body { padding-top: 68px !important; }
   padding: 13px 19px 11px 19px;
   border-radius: 11px;
   text-decoration: none;
-  font-size: 1.06rem;
+  font-size: 1rem;
   background: transparent;
   transition: background 0.17s, color 0.14s, font-weight 0.14s;
   margin: 1px 0;
@@ -222,6 +222,22 @@ body { padding-top: 68px !important; }
   background: var(--seafoam-dark);
   color: var(--pink);
   font-weight: 700;
+}
+
+.cart-dropdown .cart-total,
+.cart-dropdown .cart-total span,
+.cart-dropdown .cart-total .cart-price-number,
+.price,
+.product-card-3d .price {
+  font-family: 'Raleway', Arial, sans-serif !important;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.cart-total .cart-price-number {
+  color: #38b000; /* Or your LKR color */
+  font-size: 1.25em;
 }
 
 /* --- Animated Search Bar Modern Fix --- */
@@ -673,6 +689,44 @@ body { padding-top: 68px !important; }
   position: relative;
 }
 
+
+.footer-payment-methods {
+  background: #191818;
+  border-top: 1.5px solid #262222;
+  border-bottom: 1.5px solid #262222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.07rem;
+  padding: 0.7rem 0 0.6rem 0;
+  margin: 0;
+}
+
+.footer-payment-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+}
+
+.payment-icon {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 6px;
+  filter: grayscale(0.4) brightness(1.12);
+  transition: filter 0.18s, transform 0.15s;
+}
+.payment-icon:last-child { margin-right: 0; }
+.payment-icon:hover {
+  filter: grayscale(0) brightness(1.25) drop-shadow(0 2px 8px #d176ac33);
+  transform: scale(1.08);
+}
+
+
 /* ===== Scrollbar / Misc ===== */
 ::-webkit-scrollbar { width: 7px; background: #f8ead6; }
 ::-webkit-scrollbar-thumb { background: #d176ac; border-radius: 4px; }
@@ -789,4 +843,5 @@ body, body * {
   .news-flip-overlay h5 { font-size: 0.98rem; }
   .flip-card-back, .flip-card-front.img-full { min-height: 200px; height: 200px;}
 }
+
 
