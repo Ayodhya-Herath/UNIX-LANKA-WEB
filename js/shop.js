@@ -172,17 +172,7 @@ function productCard(prod) {
     </div>
     <button class="shop-card-add"><i class="bi bi-bag-plus me-2"></i>Add to Cart</button>
   `;
-  // --- Popup animation ---
-  card.addEventListener("click", function(e) {
-    if (e.target.classList.contains("shop-card-add")) return; // Don't open modal if button
-    openModal(prod);
-  });
-  // Add to cart logic here if needed (demo only)
-  card.querySelector('.shop-card-add').addEventListener("click", function(e) {
-    e.stopPropagation();
-    alert(`Added "${prod.name}" to cart!`);
-    // Hook your cart logic here if needed
-  });
+
   return card;
 }
 
@@ -398,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // ====== SHOP PAGE CART LOGIC ======
 
 // Track cart in-memory (use localStorage for persistence if needed)
-let cartItems = [];
+let cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
 
 // --- Attach Add to Cart event to product cards and modal ---
 function setupShopAddToCart() {
@@ -435,10 +425,14 @@ function setupShopAddToCart() {
 }
 
 // --- Add to Cart Logic ---
+function saveCart() {
+  localStorage.setItem('cartItems', JSON.stringify(cartItems));
+}
+
 function addToCart(prod) {
-  // Prevent duplicate: only add if not in cart
   if (!cartItems.some(item => item.id === prod.id)) {
     cartItems.push(prod);
+    saveCart(); // <---- ADD THIS LINE
   }
   renderCartDropdown();
 }
@@ -446,6 +440,7 @@ function addToCart(prod) {
 // --- Remove Item Logic ---
 function removeCartItem(prodId) {
   cartItems = cartItems.filter(item => item.id !== prodId);
+  saveCart(); // <---- ADD THIS LINE
   renderCartDropdown();
 }
 
@@ -489,7 +484,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (checkoutBtn) {
     checkoutBtn.addEventListener('click', function (e) {
       e.preventDefault();
-      window.location.href = 'checkout.html';
+      window.location.href = 'cart.html';
     });
   }
 });

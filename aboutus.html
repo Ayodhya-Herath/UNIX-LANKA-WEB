@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Unix Lanka</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Bootstrap & Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/aboutus.css" />
+</head>
+<body>
+  <!-- === Navbar Here === -->
+    <nav class="navbar navbar-expand-lg main-navbar-bg fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/UnixLankaLogo.png" alt="Unix Lanka Logo" width="40" height="40" class="me-2">
+        <strong class="company-gradient-text">Unix Lanka</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link nav-link-anim" href="shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-anim" href="aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-anim" href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <div class="d-flex align-items-center">
+        <!-- Search Bar -->
+        <div class="search-animated me-3">
+            <input type="text" class="form-control form-control-sm search-input" placeholder="Search..." />
+            <i class="bi bi-search search-icon"></i>
+        </div>
+        <!-- Cart Dropdown Wrapper -->
+        <div class="cart-dropdown-wrapper position-relative me-3">
+            <span id="cartIconArea">
+            <i class="bi bi-cart fs-5" id="cartIcon" style="cursor: pointer;"></i>
+            </span>
+            <div class="cart-dropdown shadow-sm" id="cartDropdown">
+            <div class="cart-header d-flex justify-content-between align-items-center px-3 py-2">
+                <strong>Your Cart</strong>
+            </div>
+            <ul class="list-unstyled mb-0 px-3 pt-2" style="max-height: 200px; overflow-y: auto;"></ul>
+            <div class="p-3 pt-0">
+                <a href="cart.html" class="btn checkout-btn-modern w-100">Checkout</a>
+            </div>
+            </div>
+        </div>
+        <!-- User Dropdown Wrapper -->
+        <div class="user-dropdown-wrapper position-relative">
+            <i class="bi bi-person fs-5 user-icon" id="userDropdownIcon" style="cursor:pointer;"></i>
+            <div class="user-dropdown shadow-sm" id="userDropdownMenu">
+            <a href="signin.html" class="dropdown-link"><i class="bi bi-box-arrow-in-right me-2"></i>Sign In</a>
+            <a href="signup.html" class="dropdown-link"><i class="bi bi-person-plus me-2"></i>Sign Up</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+  <main>
+    <!-- ========== Hero Section ========== -->
+    <section class="about-hero container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-5 text-center text-lg-start">
+          <img src="images/aboutus/C2.png" alt="Unix Lanka Team Member" class="about-hero-img img-fluid mb-4 mb-lg-0">
+        </div>
+        <div class="col-lg-7">
+          <div class="about-intro-card">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-trophy2 about-icon"></i>
+              <div class="about-raised-box ms-3">
+                <span class="about-raised-title">Total Gifts Sold</span><br>
+                <span class="about-raised-value">45,390+</span>
+              </div>
+            </div>
+            <div class="about-who">
+              <small class="about-small-title">WHO WE ARE!</small>
+              <h1 class="about-title mb-3">We Work for Your Incredible Gift Experience</h1>
+              <p class="about-desc mb-3">
+                Unix Lanka brings you the best curated handcrafted and electronic gifts in Sri Lanka. 
+                Our aim is to make every celebration special with high quality, beautiful products and a modern shopping experience.
+              </p>
+              <ul class="about-list mb-3">
+                <li>Exclusive, unique handcrafted & electric gifts</li>
+                <li>Personalized service with care</li>
+                <li>Trusted by thousands of happy customers</li>
+              </ul>
+              <a href="shop.html" class="btn btn-pink-gradient px-4 mt-1">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Why Choose Us ========== -->
+    <section class="about-why-section py-5">
+      <div class="container">
+        <h2 class="about-section-title mb-2 text-center">Why Choose Us</h2>
+        <p class="about-section-desc text-center mb-5">
+          Explore Sri Lanka's modern online gift store with our premium handcrafted & electric products. 
+          We’re part of your smiles, your surprises, and your most memorable moments.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-patch-check"></i></div>
+              <div class="about-feature-title">High Quality Products</div>
+              <div class="about-feature-desc">Every item is crafted or chosen for durability and style.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-stars"></i></div>
+              <div class="about-feature-title">Exclusive Collections</div>
+              <div class="about-feature-desc">Discover gifts you won’t find anywhere else in Sri Lanka.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-cash-coin"></i></div>
+              <div class="about-feature-title">Best Value</div>
+              <div class="about-feature-desc">Premium gifts at fair, competitive prices.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-globe2"></i></div>
+              <div class="about-feature-title">Islandwide Delivery</div>
+              <div class="about-feature-desc">Delivering happiness across Sri Lanka, fast & safely.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-clock-history"></i></div>
+              <div class="about-feature-title">Order Tracking</div>
+              <div class="about-feature-desc">Track your orders in real time, with quick support.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-feature-card">
+              <div class="about-feature-icon"><i class="bi bi-emoji-smile"></i></div>
+              <div class="about-feature-title">100% Happy Customers</div>
+              <div class="about-feature-desc">We care about your satisfaction—see our reviews!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Testimonials Section ========== -->
+    <section class="about-testimonials-section py-5">
+      <div class="container">
+        <h2 class="about-section-title text-center mb-2">What Our Clients Say</h2>
+        <p class="about-section-desc text-center mb-4">
+          Here’s what our customers say about shopping with Unix Lanka Gifts.
+        </p>
+        <div class="row g-4 justify-content-center">
+          <!-- Testimonial 1 -->
+          <div class="col-md-4">
+            <div class="about-testimonial-card">
+              <div class="d-flex align-items-center mb-2">
+                <img src="images/customers/U1.jpg" class="about-testimonial-img me-2" alt="Client">
+                <div>
+                  <div class="about-testimonial-name">Johani Martini</div>
+                  <div class="about-testimonial-role">CEO</div>
+                </div>
+              </div>
+              <div class="about-testimonial-text">
+                "Thank you, Unix Lanka team, for your amazing customer service and beautiful gifts. Will order again!"
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="col-md-4">
+            <div class="about-testimonial-card">
+              <div class="d-flex align-items-center mb-2">
+                <img src="images/customers/U2.jpg" class="about-testimonial-img me-2" alt="Client">
+                <div>
+                  <div class="about-testimonial-name">Jamie Anderson</div>
+                  <div class="about-testimonial-role">Manager</div>
+                </div>
+              </div>
+              <div class="about-testimonial-text">
+                "Quick delivery, unique gift options, and always a friendly team. Highly recommend Unix Lanka Gifts!"
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="col-md-4">
+            <div class="about-testimonial-card">
+              <div class="d-flex align-items-center mb-2">
+                <img src="images/customers/U3.jpg" class="about-testimonial-img me-2" alt="Client">
+                <div>
+                  <div class="about-testimonial-name">Kate Rieson</div>
+                  <div class="about-testimonial-role">Area Manager</div>
+                </div>
+              </div>
+              <div class="about-testimonial-text">
+                "Best place for unique gifts in Sri Lanka. Loved the packaging and the support!, Greate work with our group..."
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Stats Section ========== -->
+    <section class="about-stats-section py-4">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3">
+            <div class="about-stats-card">
+              <i class="bi bi-people fs-2 mb-1"></i>
+              <div class="about-stats-number">5,400+</div>
+              <div class="about-stats-label">Happy Customers</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-stats-card">
+              <i class="bi bi-chat-square-heart fs-2 mb-1"></i>
+              <div class="about-stats-number">1,250+</div>
+              <div class="about-stats-label">Good Reviews</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-stats-card">
+              <i class="bi bi-gift fs-2 mb-1"></i>
+              <div class="about-stats-number">4,250+</div>
+              <div class="about-stats-label">Gifts Delivered</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="about-stats-card">
+              <i class="bi bi-emoji-smile fs-2 mb-1"></i>
+              <div class="about-stats-number">500+</div>
+              <div class="about-stats-label">New Comments</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- === Footer Here === -->
+    <!-- FOOTER: Paste at very bottom of body -->
+    <footer class="footer-standard position-relative main-footer-bg">
+    <div class="footer-art"></div>
+    <div class="container py-5 position-relative" style="z-index:2;">
+        <div class="row gy-4 align-items-start flex-wrap footer-row-flex">
+        <div class="footer-col-logo col-12 col-md-6 col-lg-2 mb-4 mb-lg-0">
+            <a href="index.html" class="footer-brand d-inline-flex align-items-center mb-2 text-decoration-none">
+            <img src="images/UnixLankaLogo.png" alt="Unix Lanka Logo" width="48" height="48" class="me-2 rounded-3">
+            <span class="fw-bold fs-5 text-white">Unix Lanka Gifts</span>
+            </a>
+            <p class="small mt-2 mb-0 text-seafoam">Handcrafted & electric gifts made with love in Sri Lanka.</p>
+        </div>
+        <div class="footer-col-social col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+            <div class="footer-social-group mb-2">
+            <a href="https://instagram.com/" target="_blank" class="footer-social me-2"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com/" target="_blank" class="footer-social me-2"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/" target="_blank" class="footer-social"><i class="bi bi-whatsapp"></i></a>
+            <span class="small d-block mb-1 text-seafoam"><i class="bi bi-envelope me-1"></i>info@unixlanka.com</span>
+            <span class="small text-seafoam"><i class="bi bi-geo-alt me-1"></i>Colombo, Sri Lanka</span>
+            </div>
+        </div>
+        <div class="footer-col-contact col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+            <div class="footer-contact mt-2">
+            <h6 class="footer-title">Shop</h6>
+            <ul class="footer-links mb-3">
+                <li><a href="shop.html">All Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer-col-links col-12 col-md-6 col-lg-2 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+            <h6 class="footer-title mt-2">Company</h6>
+            <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col-newsletter col-12 col-lg-4 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+            <h6 class="footer-title mb-2">Get 10% Off Your First Order</h6>
+            <form class="footer-newsletter d-flex w-100" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+            <input type="email" class="form-control form-control-sm me-2 newsletter-input" placeholder="Enter your email..." required>
+            <button class="btn btn-pink-gradient btn-sm px-3 fw-semibold newsletter-btn shadow" type="submit">
+                <i class="bi bi-send-fill me-1"></i>Subscribe
+            </button>
+            </form>
+        </div>
+        </div>
+    </div>
+    </footer>
+    <div class="footer-payment-methods text-center py-2">
+    <img src="images/payment/visa.png" alt="Visa" class="payment-icon" />
+    <img src="images/payment/mastercard.png" alt="Mastercard" class="payment-icon" />
+    <img src="images/payment/paypal.png" alt="PayPal" class="payment-icon" />
+    <img src="images/payment/amex.png" alt="Amex" class="payment-icon" />
+    <img src="images/payment/stripe.png" alt="Stripe" class="payment-icon" />
+    </div>
+    <div class="footer-copyright-bar text-center py-2 bg-black">
+    <span class="small">&copy; 2025 Unix Lanka. All rights reserved.</span>
+    </div>
+
+  <script src="js/aboutus.js"></script>
+</body>
+</html>
