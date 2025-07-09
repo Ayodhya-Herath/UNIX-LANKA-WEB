@@ -517,6 +517,49 @@ body { padding-top: 68px !important; }
 .footer-links a {
   color: var(--seafoam-dark); text-decoration: none; font-size: 1rem; font-weight: 500; transition: color 0.16s;
 }
+
+.footer-col-newsletter {
+  /* Layout handled by Bootstrap grid, but you can add custom spacing if needed */
+}
+
+.footer-title {
+  font-size: 1.13rem;
+  font-weight: 700;
+  color: var(--seafoam);
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-newsletter {
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-newsletter input[type="email"] {
+  border-radius: 22px;
+  border: 1.5px solid var(--pink);
+  font-size: 1.02rem;
+  background: var(--seafoam-dark);
+  color: var(--black);
+}
+
+.btn-pink-gradient, .newsletter-btn {
+  background: var(--gradient-main);
+  color: #fff !important;
+  border: none;
+  font-weight: 700;
+  border-radius: 32px;
+  box-shadow: var(--btn-shadow);
+  padding: 0.6rem 1.8rem 0.6rem 1.4rem;
+  font-size: 1.12rem;
+  transition: background 0.17s, color 0.13s, transform 0.14s, box-shadow 0.19s;
+  letter-spacing: 0.5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
 .footer-links a:hover { color: var(--pink); text-decoration: underline; }
 .footer-newsletter {
   gap: 0.5rem; margin-bottom: 0.3rem;

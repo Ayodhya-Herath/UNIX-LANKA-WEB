@@ -36,15 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.location.href = 'cart.html';
   });
 
-  // ========== Product Card Click / Add to Cart Logic ==========
-  // Make card clickable except the Add to Cart button
-  document.querySelectorAll('.product-card-3d').forEach(card => {
-    card.addEventListener('click', function(e) {
-      if (!e.target.classList.contains('add-to-cart-btn')) {
-        window.location.href = 'product.html';
-      }
-    });
-  });
+
 
   // Add to Cart functionality
   let cartItems = [];
