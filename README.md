@@ -27,9 +27,9 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 
 ## 🖼️ Screenshots
 
-| Homepage | Product Carousel | Cart Dropdown | Shop by Category |
-|----------|------------------|---------------|-----------------|
-| ![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) | ![Carousel](screenshots/carousel.png) | ![Cart](screenshots/cart.png) | ![Category](screenshots/category.png) |
+| Home Page | Shop Page | AboutUs Page | Contact Page | Cart Page |
+|----------|------------------|---------------|-----------------|-----------------|
+| ![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) | ![Shop](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-shop-page-ss.png) | ![AboutUs](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-about-page-ss.png) | ![Contact](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-contact-page-ss.png) | ![Cart](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-cart-page-ss.png) |
 
 ---
 
