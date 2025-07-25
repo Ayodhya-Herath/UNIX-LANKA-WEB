@@ -40,7 +40,7 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 
 ## 🖥️ Repo & Live Demo
 
- git clone : https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git 
+ Git Clone : https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git 
 <br>
 <br>
  Live Demo : https://unix-lanka-web.vercel.app/
