@@ -1,8 +1,8 @@
-# 🎁 Unix Lanka Website 🎁
+<h1 align="center"> 🎁 Unix Lanka Website 🎁 </h1>
 
-_A modern, fully responsive e-commerce website for handcrafted and electric gifts, designed with love and creativity._
+<h3 align="center">A modern, fully responsive e-commerce website for handcrafted and electric gifts, designed with love and creativity. </h3>
 
-<p align="center" ><img src = "https://github.com/Ayodhya-Herath/images/blob/main/UnixLankaLogo.png" width = 200px></p>
+<p align="center" ><img src = "https://github.com/Ayodhya-Herath/images/blob/main/UnixLankaLogo.png" width = 300px></p>
 
 ## ✨ Overview
 
