@@ -2,7 +2,7 @@
 
 _A modern, fully responsive e-commerce website for handcrafted and electric gifts, designed with love and creativity._
 
-<p align="center" >![Unix Lanka Gifts Homepage Banner](https://github.com/Ayodhya-Herath/images/blob/main/UnixLankaLogo.png)</p>
+<p align="center" ><img src = "https://github.com/Ayodhya-Herath/images/blob/main/UnixLankaLogo.png" width = 20px></p>
 
 ## ✨ Overview
 
