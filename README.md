@@ -25,14 +25,6 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 
 ---
 
-## 🖼️ Screenshots
-
-| Home Page | Shop Page | AboutUs Page | Contact Page | Cart Page |
-|----------|------------------|---------------|-----------------|-----------------|
-| ![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) | ![Shop](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-shop-page-ss.png) | ![AboutUs](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-about-page-ss.png) | ![Contact](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-contact-page-ss.png) | ![Cart](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-cart-page-ss.png) |
-
----
-
 ## 🛠️ Built With
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -46,11 +38,32 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 
 ---
 
-## 🖥️ Local Development
+## 🖥️ Repo & Live Demo
 
-Clone and run locally (no backend required):
+git clone : https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git
+Live Demo : https://unix-lanka-web.vercel.app/
 
-```bash
-git clone https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git
-cd unix-lanka-web
-# Open index.html in your browser
+---
+
+## 🖼️ Screenshots
+
+| Home Page | 
+|----------|
+| ![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) |
+| Shop Page |
+|------------------|
+| ![Shop](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-shop-page-ss.png) |
+| AboutUs Page | 
+|------------------|
+| ![AboutUs](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-about-page-ss.png) |
+| Contact Page | 
+|------------------|
+| ![Contact](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-contact-page-ss.png) |
+| Cart Page |
+|------------------|
+| ![Cart](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-cart-page-ss.png) |
+
+---
+
+
+
