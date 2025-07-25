@@ -40,28 +40,29 @@ With a soft pink palette, interactive effects, and seamless UX, this site is a g
 
 ## 🖥️ Repo & Live Demo
 
-git clone : https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git 
+- git clone : https://github.com/Ayodhya-Herath/UNIX-LANKA-WEB.git 
 <br>
-Live Demo : https://unix-lanka-web.vercel.app/
+<br>
+- Live Demo : https://unix-lanka-web.vercel.app/
 
 ---
 
 ## 🖼️ Screenshots
 
-| Home Page | 
-| ![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) |
+Home Page
+![Home](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-home-page-ss.png) 
 <br>
-| Shop Page |
-| ![Shop](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-shop-page-ss.png) |
+Shop Page 
+![Shop](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-shop-page-ss.png)
 <br>
-| AboutUs Page | 
-| ![AboutUs](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-about-page-ss.png) |
+About Us Page 
+![AboutUs](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-about-page-ss.png)
 <br>
-| Contact Page | 
-| ![Contact](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-contact-page-ss.png) |
+Contact Page 
+![Contact](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-contact-page-ss.png)
 <br>
-| Cart Page |
-| ![Cart](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-cart-page-ss.png) |
+Cart Page
+![Cart](https://github.com/Ayodhya-Herath/images/blob/main/unix-lanka-web-cart-page-ss.png)
 
 ---
 
